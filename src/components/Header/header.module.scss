@@ -1,9 +1,48 @@
 header{
-    border: solid 2px green;
-    section{
-        background-color: orange;
+    background: linear-gradient(90deg,rgba(0,27,47,1)0%, rgba(0,85,149,1)88%);
+    color: white;
+    display: flex;  
+    justify-content: space-between ; 
+    align-items: center;
+    height: 15vh;
+        img{
+        display: flex;
+        align-items: center;
+        width: 5.5vw;
+        height: 10.5vh;   
+    }}
+ 
+.boxlogo{
+    border: 2px solid yellow;
+    color: white;
+    display: flex;
+    width: 23vw;
+    align-items: center;
+    height: 14vh;
+    justify-content: space-evenly;
+
+ }
+.boxMenu{
+    border: solid 2px greenyellow;
+    width: 35vw;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a{
+        color: white;
+        font-size: 20px;
+        }
+    }
+
 }
+.boxInput{
+    border: solid  2px white;
+    width: 17vw;
+    height: 6vh;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
 }
-// .boxlogo{
-//     color: aqua;
-// }

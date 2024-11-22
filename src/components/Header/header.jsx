@@ -11,19 +11,18 @@ export default function header(){
     return(
         <BrowserRouter>
         <header>
-        {/* <section>className={Style.boxlogo} */}
-            <section> 
+            <section className={Style.boxlogo}> 
                 <img src={logo} alt="imagen de um livro"></img>
                 <h1>Livros Vai na Web</h1>
             </section>
-            <nav>
+            <nav className={Style.boxMenu}>
                 <ul>
                     <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/doados">Livros Doados</Link></li>
                     <li><Link to="/queroDoar">Quero Doar</Link></li>
                 </ul>
             </nav>
-            <div>
+            <div className={Style.boxInput}>
                 <input type="text"/>
                 <img src={search} alt='lupa de busca'/> 
             </div>

@@ -23,7 +23,7 @@ export default function header(){
                 </ul>
             </nav>
             <div className={Style.boxInput}>
-                <input type="text"/>
+                <input type="text" placeholder='O que você procura?'/>
                 <img src={search} alt='lupa de busca'/> 
             </div>
         </header>

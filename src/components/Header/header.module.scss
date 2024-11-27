@@ -13,7 +13,6 @@ header{
     }}
  
 .boxlogo{
-    border: 2px solid yellow;
     color: white;
     display: flex;
     width: 23vw;
@@ -23,8 +22,7 @@ header{
 
  }
 .boxMenu{
-    border: solid 2px greenyellow;
-    width: 35vw;
+     width: 35vw;
     ul{
         display: flex;
         align-items: center;
@@ -32,10 +30,12 @@ header{
         a{
         color: white;
         font-size: 20px;
+        &:hover {
+            color: yellow;
         }
     }
 
-}
+}}
 .boxInput{
     border: solid  2px white;
     width: 17vw;
@@ -45,4 +45,18 @@ header{
     align-items: center;
     justify-content: space-around;
     border-radius: 15px;
+    input{
+        outline: none;
+        background-color: transparent;
+        border: none;
+        color: white;  
+        font-size: 14px;
+        &::placeholder{
+            color: white;
+        }              
+    }
+    img{
+        height: 2vh;
+        width: 1.3vw;
+    }
 }

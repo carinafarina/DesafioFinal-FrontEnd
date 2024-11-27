@@ -1,0 +1,27 @@
+
+.firstFooter{
+    height: 120px;
+    background: rgba(0, 86, 149, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    nav{
+        width: 18vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+.secondFooter{
+    height: 68px;
+    background: rgba(35, 32, 32, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

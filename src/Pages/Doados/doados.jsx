@@ -1,4 +1,4 @@
-
+import Style  from './doados.module.scss'
 
 
 

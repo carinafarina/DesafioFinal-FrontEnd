@@ -1,6 +1,53 @@
 .principal{
-    border: solid 2px red;
-    height: 80vh;
+    height: 80vh;   
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+form{
+    border: solid 2px rgba(0, 86, 149, 1);
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: rgba(0, 86, 149, 1);
+    }
+    input{
+        width: 22vw;
+        height: 5vh;
+        border: 2px solid rgba(0, 86, 149, 1);
+        border-radius: 10px;
+        outline: none;
+        padding-left: 20px;
+        &::placeholder{
+            color: black;
+        }                        
+          
+    }
+
+}
+.doar{
+    background-color: rgba(0, 86, 149, 1);
+    width: 10vw;
+    padding-left: 0;
+    color: white;
+    height: 6vh;
+    font-size: 20px;
+    &:hover {
+        color: yellow;
+    }
 }

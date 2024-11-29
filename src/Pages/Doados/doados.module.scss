@@ -1,4 +1,21 @@
-.principal{
-    border: solid 2px red;
-    height: 80vh;
+.boxDoados{
+    height: 58vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.boxCard{
+    width: 85vw;
+    height: 60vh;
+    article{
+        border: solid 2px  rgba(0, 86, 149, 1);
+        width: 15vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 15px;
+    }
 }

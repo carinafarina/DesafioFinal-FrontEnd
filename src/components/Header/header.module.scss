@@ -46,6 +46,7 @@ header{
     justify-content: space-around;
     border-radius: 15px;
     input{
+        width: 12vw;
         outline: none;
         background-color: transparent;
         border: none;
@@ -60,3 +61,28 @@ header{
         width: 1.3vw;
     }
 }
+
+@media(max-width: 1187px){
+
+    .boxlogo{
+        border: solid 2px red;
+        width: 25vw;
+        h1{
+            font-size: 1.9vw;
+        }
+        img{
+            width: 5vw;
+    }
+}
+    .boxMenu{
+        border: solid 2px yellow;
+        ul{
+            font-size: 1.6vw;
+        }
+
+}
+}
+
+
+
+

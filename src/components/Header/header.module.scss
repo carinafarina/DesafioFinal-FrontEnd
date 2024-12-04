@@ -62,10 +62,9 @@ header{
     }
 }
 
-@media(max-width: 1187px){
+@media(max-width: 1188px){
 
     .boxlogo{
-        border: solid 2px red;
         width: 25vw;
         h1{
             font-size: 1.9vw;
@@ -75,13 +74,48 @@ header{
     }
 }
     .boxMenu{
-        border: solid 2px yellow;
         ul{
             font-size: 1.6vw;
         }
 
 }
+    .boxInput{
+        width: 18vw;
+        input{
+        &::placeholder{
+            font-size:1.2vw;
+        }
+    }
+    }
 }
+
+@media (max-width: 760px){
+    header{
+        height: 25vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .boxInput{
+            display: none;
+        }
+        .boxlogo{
+            width: 80%;
+            h1{
+                font-size: 25px;
+            }
+            img{
+                width: 60px;
+            }
+        }
+        .boxMenu{
+            width: 100%;
+            ul{
+                justify-content: space-evenly;
+                font-size: 22px ;
+            }
+        }
+    }
+}    
+
 
 
 

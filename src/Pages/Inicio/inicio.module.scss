@@ -69,3 +69,14 @@
     }
     
 }
+@media(max-width: 1200px){
+    .banner{
+        background-size: cover;
+    }
+}
+
+@media(max-width: 860px){
+    .banner{
+        background-image: url('');
+    }
+}

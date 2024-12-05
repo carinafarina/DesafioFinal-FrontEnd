@@ -2,7 +2,7 @@ import Style  from './footer.module.scss'
 import face from '../../assets/facebook.png'
 import insta from '../../assets/instagram.png'
 import youtube from '../../assets/youtube.png'
-import twitter from '../../assets/twitter.png'
+import twitter from '../../assets/Twitter.png'
 import linkedin from '../../assets/linkedin.png'
  
 

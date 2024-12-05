@@ -1,6 +1,6 @@
 
 import Style  from './querodoar.module.scss'
-import livro from '../../assets/frame.png'
+import livro from '../../assets/Frame.png'
 
 
 

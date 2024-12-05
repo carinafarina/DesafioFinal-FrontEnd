@@ -9,7 +9,7 @@ import linkedin from '../../assets/linkedin.png'
 export default function footer(){
     return(
         <footer>
-            <section className={Style.firstFooter}>            
+            <section className={Style.boxSocial}>            
                 <h3>4002-8922</h3>
                 <nav>
                     <a href=""> <img src={face} alt="Imagem logo facebook"/></a>
@@ -19,7 +19,7 @@ export default function footer(){
                     <a href=""> <img src={linkedin} alt="Imagem logo Linkedin"/></a>
                 </nav>                
             </section>
-            <section className={Style.secondFooter}>
+            <section className={Style.boxEnd}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>
             </section>
 

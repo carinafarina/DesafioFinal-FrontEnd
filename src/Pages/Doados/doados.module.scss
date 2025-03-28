@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
 }
-.boxCard{
+.boxBooks{
     width: 85vw;
     height: 60vh;
     article{
@@ -38,7 +38,7 @@
     .boxBooks{
         flex-wrap: wrap;
         gap: 10px;
-        height: auto;
+        height: 560px;
     }
 
     .boxDoados{

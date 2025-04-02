@@ -1,13 +1,23 @@
+h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
 .boxDoados{
     height: 58vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 100px;
 }
 .boxBooks{
     width: 85vw;
     height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
     article{
         border: solid 2px  rgba(0, 86, 149, 1);
         width: 15vw;
